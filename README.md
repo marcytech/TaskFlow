@@ -1,49 +1,16 @@
-# TaskFlow
+# React + Vite
 
-Aplicação de gerenciamento de tarefas desenvolvida com **React** e **Vite**, com foco em produtividade, organização e experiência do usuário.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Preview
+Currently, two official plugins are available:
 
-TaskFlow é um projeto front-end criado para praticar desenvolvimento de interfaces modernas, componentização, gerenciamento de estado e persistência de dados no navegador.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Funcionalidades
+## React Compiler
 
-- Adicionar tarefas
-- Editar tarefas
-- Excluir tarefas
-- Marcar tarefas como concluídas
-- Filtrar por status
-- Buscar tarefas
-- Dark mode
-- Persistência com localStorage
-- Layout responsivo
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Tecnologias utilizadas
+## Expanding the ESLint configuration
 
-- React
-- JavaScript
-- Vite
-- CSS3
-- Git
-- GitHub
-
-## Objetivos do projeto
-
-Este projeto foi desenvolvido com o objetivo de praticar:
-
-- Componentização em React
-- Manipulação de estado
-- Boas práticas de organização de código
-- Responsividade
-- Experiência do usuário
-- Desenvolvimento de aplicações front-end funcionais
-
-## Estrutura do projeto
-
-```bash
-src/
- ┣ components/
- ┣ hooks/
- ┣ styles/
- ┣ App.jsx
- ┗ main.jsx
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
